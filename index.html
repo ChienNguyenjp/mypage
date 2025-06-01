@@ -145,7 +145,7 @@
     ],
     icons: [],
     images: [
-      'https://i.ibb.co/GQgjMGYN/unnamed-1.jpg',
+      '',
       'https://i.ibb.co/DHQPqZJD/unnamed-2.jpg',
       'https://i.ibb.co/zTK7MYQL/unnamed.jpg'
     ],
@@ -422,7 +422,7 @@
       setInterval(() => {
         // Randomly create particles, preferring text & icons, sometimes images
         const rand = Math.random();
-        if (rand < 0.75) createTextParticle();
+        if (rand < 0.95) createTextParticle();
         else createImageParticle();
 
         // Clean old particles if too many (handled inside create functions)
